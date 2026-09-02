@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-app = FastAPI()
+app = FastAPI() # Fast_API
 
 @app.get("/hello") #@=decorator,/=url
 def hello_world(name : str , age : int):
